@@ -220,6 +220,8 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'notifications.enabled';
       case FeatureFlag.isOverflowMenuEnabled:
         return 'overflow-menu.enabled';
+      case FeatureFlag.isPrejoinPageEnabled:
+        return 'prejoinpage.enabled';
       case FeatureFlag.isReactionsEnabled:
         return 'reactions.enabled';
       case FeatureFlag.isReplaceParticipantEnabled:
